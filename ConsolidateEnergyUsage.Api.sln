@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsolidateEnergyUsage.Api", "ConsolidateEnergyUsage.Api\ConsolidateEnergyUsage.Api.csproj", "{B1B943B8-FFEF-4D05-BA0D-324CC63A0CC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsolidateEnergyUsage.Test", "ConsolidateEnergyUsage.Test\ConsolidateEnergyUsage.Test.csproj", "{B90003DA-310B-4738-9C9A-0DC6EED1EF11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1B943B8-FFEF-4D05-BA0D-324CC63A0CC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1B943B8-FFEF-4D05-BA0D-324CC63A0CC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1B943B8-FFEF-4D05-BA0D-324CC63A0CC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1B943B8-FFEF-4D05-BA0D-324CC63A0CC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B90003DA-310B-4738-9C9A-0DC6EED1EF11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B90003DA-310B-4738-9C9A-0DC6EED1EF11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B90003DA-310B-4738-9C9A-0DC6EED1EF11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B90003DA-310B-4738-9C9A-0DC6EED1EF11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14C445C8-A2B7-4ECE-A0B5-C79005116E86}
+	EndGlobalSection
+EndGlobal

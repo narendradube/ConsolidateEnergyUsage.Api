@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ConsolidateEnergyUsage.Api</name>
+    </assembly>
+    <members>
+        <member name="M:ConsolidateEnergyUsage.Api.Controllers.EnergyConsumptionController.GetAsync">
+            <summary>
+            Returns engery consumption usages using input .csv file, use version: 1.0
+            </summary>
+            <response code="200">energy consumption dataset</response>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,59 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\Narendra\source\repos\ConsolidateEnergyUsage.Api\ConsolidateEnergyUsage.Api\ConsolidateEnergyUsage.Api.xml</DocumentationFile>
+    <WarningsAsErrors>;NU1605</WarningsAsErrors>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <NoWarn>1701;1702;1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ConsolidateEnergyUsage.Api.xml" />
+    <None Remove="InputFile\LP_210095893_20180901T011608049.csv" />
+    <None Remove="InputFile\LP_214612534_20180907T084333712.csv" />
+    <None Remove="InputFile\LP_214612653_20180907T220027915.csv" />
+    <None Remove="InputFile\TOU_212621147_20180915T01200916.csv" />
+    <None Remove="InputFile\TOU_212621678_20180913T05110714.csv" />
+    <None Remove="InputFile\TOU_214667141_20180916T08441249.csv" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="ConsolidateEnergyUsage.Api.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="InputFile\LP_210095893_20180901T011608049.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="InputFile\LP_214612534_20180907T084333712.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="InputFile\LP_214612653_20180907T220027915.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="InputFile\TOU_212621147_20180915T01200916.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="InputFile\TOU_212621678_20180913T05110714.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="InputFile\TOU_214667141_20180916T08441249.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="27.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.17" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.1.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.1.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.1.4" />
+  </ItemGroup>
+
+
+</Project>
